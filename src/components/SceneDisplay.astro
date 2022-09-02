@@ -1,5 +1,5 @@
 ---
-import { Image } from '@astrojs/image/components'
+import { Picture } from '@astrojs/image/components'
 import type { ImageMetadata } from '@astrojs/image/dist/vite-plugin-astro-image'
 
 export interface Scene {
@@ -14,5 +14,10 @@ export interface Props {
 const { scene } = Astro.props as Props
 ---
 
-<Image class="w-full" src={scene.src} />
+<Picture
+  class="w-full"
+  src={scene.src}
+  widths={[480, 640, 1024]}
+  sizes="(max-width: 1024px) 100vw, 1024px"
+/>
 <p>{scene.description}</p>
