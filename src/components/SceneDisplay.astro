@@ -1,4 +1,6 @@
 ---
+import { Image } from '@astrojs/image/components'
+
 export interface Scene {
   src: string
   description: string
@@ -11,5 +13,5 @@ export interface Props {
 const { scene } = Astro.props as Props
 ---
 
-<img class="w-full" src={scene.src} />
+<Image class="w-full" src={scene.src} height="600" aspectRatio="1" />
 <p>{scene.description}</p>
