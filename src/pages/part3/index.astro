@@ -1,0 +1,42 @@
+---
+import NavigationLinks from '../../components/NavigationLinks.astro'
+import ScenesDisplay from '../../components/ScenesDisplay.astro'
+import StackY from '../../components/StackY.astro'
+import {
+  blackStuffBehind,
+  blueMonster1,
+  blueMonster2,
+  mirrorBreaking,
+  runningAway,
+  somethingOnLeftHand,
+  staringAtFist,
+  theStance,
+} from '../../images'
+import Layout from '../../layouts/Layout.astro'
+
+const navLinks = { back: './part2', forward: './part4' }
+
+const scenes = [
+  { src: blueMonster1, description: 'A battle begins!' },
+  { src: theStance, description: '' },
+  { src: staringAtFist, description: '' },
+  { src: somethingOnLeftHand, description: '' },
+  { src: mirrorBreaking, description: '' },
+  { src: blackStuffBehind, description: '' },
+  { src: blueMonster2, description: 'Hmm?' },
+  {
+    src: runningAway,
+    description: 'He flees from a difficult enemy.',
+  },
+]
+---
+
+<Layout titleExtra="Part 3">
+  <StackY>
+    <NavigationLinks links={navLinks} />
+
+    <ScenesDisplay scenes={scenes} />
+
+    <NavigationLinks links={navLinks} />
+  </StackY>
+</Layout>
