@@ -1,0 +1,15 @@
+---
+export interface Scene {
+  src: string
+  description: string
+}
+
+export interface Props {
+  scene: Scene
+}
+
+const { scene } = Astro.props as Props
+---
+
+<img class="w-full" src={scene.src} />
+<p>{scene.description}</p>
