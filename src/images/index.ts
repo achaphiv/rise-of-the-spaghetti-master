@@ -305,3 +305,7 @@ export const flattened = toPath(
 export const graves = toPath(
   '1662102390_scale_13.8_steps_160_seed_4907430549534133141_upscaled_2_sharpened_2'
 )
+
+export const superCloseUp = toPath(
+  '1662050845_scale_13.8_steps_135_seed_6038819540852106403_upscaled_2_sharpened_2'
+)
