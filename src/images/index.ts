@@ -213,3 +213,23 @@ export const fallingChunks = toPath(
 export const redChunks = toPath(
   '1662093476_scale_13.8_steps_160_seed_6101238000288718488_upscaled_2_sharpened_2'
 )
+
+export const stillFalling = toPath(
+  '1662094974_scale_13.8_steps_135_seed_2363019897606745044_upscaled_2_sharpened_2'
+)
+
+export const distantExplosion = toPath(
+  '1662095653_scale_13.8_steps_160_seed_4961511849828982483_upscaled_2_sharpened_2'
+)
+
+export const explosion = toPath(
+  '1662095975_scale_13.8_steps_160_seed_4961511849828982488_upscaled_2_sharpened_2'
+)
+
+export const showOff = toPath(
+  '1662049675_scale_13.8_steps_135_seed_3568936245512176808_upscaled_2_sharpened_2'
+)
+
+export const closeUp = toPath(
+  '1662049127_scale_13.8_steps_135_seed_3568936245512176799_upscaled_2_sharpened_2'
+)
