@@ -153,3 +153,11 @@ export const blueMonster2 = toPath(
 export const arrival = toPath(
   '1662051809_scale_13.8_steps_135_seed_7224028837179423069_upscaled_2_sharpened_2'
 )
+
+export const blueMonsterSquiggly = toPath(
+  '1662088881_scale_13.8_steps_135_seed_3852275261996432123_upscaled_2_sharpened_2'
+)
+
+export const moreStrandsBehind = toPath(
+  '1662050719_scale_13.8_steps_135_seed_3992971910009714280_upscaled_2_sharpened_2'
+)
