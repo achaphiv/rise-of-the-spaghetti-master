@@ -165,3 +165,43 @@ export const moreStrandsBehind = toPath(
 export const leftArmStrands = toPath(
   '1662049182_scale_13.8_steps_135_seed_3568936245512176800_upscaled_2_sharpened_2'
 )
+
+export const holdingPlate = toPath(
+  '1662045799_scale_13.8_steps_160_seed_3124957833307070038_upscaled_2_sharpened_2'
+)
+
+export const plateHovering = toPath(
+  '1662045873_scale_13.8_steps_160_seed_3124957833307070039_upscaled_2_sharpened_2'
+)
+
+export const happyFeet = toPath(
+  '1662045946_scale_13.8_steps_160_seed_3124957833307070040_upscaled_2_sharpened_2'
+)
+
+export const fence1 = toPath(
+  '1662092860_scale_13.8_steps_135_seed_8539229572598463021_upscaled_2_sharpened_2'
+)
+
+export const fence2 = toPath(
+  '1662092436_scale_13.8_steps_135_seed_8539229572598463014_upscaled_2_sharpened_2'
+)
+
+export const fence3 = toPath(
+  '1662092736_scale_13.8_steps_135_seed_8539229572598463019_upscaled_2_sharpened_2'
+)
+
+export const fence4 = toPath(
+  '1662093110_scale_13.8_steps_135_seed_9072432827735806644_upscaled_2_sharpened_2'
+)
+
+export const fence5 = toPath(
+  '1662093172_scale_13.8_steps_135_seed_9072432827735806645_upscaled_2_sharpened_2'
+)
+
+export const gash = toPath(
+  '1662048266_scale_13.8_steps_135_seed_3681495938669754118_upscaled_2_sharpened_2'
+)
+
+export const orb = toPath(
+  '1662048454_scale_13.8_steps_135_seed_3681495938669754121_upscaled_2_sharpened_2'
+)
