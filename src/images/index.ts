@@ -161,3 +161,7 @@ export const blueMonsterSquiggly = toPath(
 export const moreStrandsBehind = toPath(
   '1662050719_scale_13.8_steps_135_seed_3992971910009714280_upscaled_2_sharpened_2'
 )
+
+export const leftArmStrands = toPath(
+  '1662049182_scale_13.8_steps_135_seed_3568936245512176800_upscaled_2_sharpened_2'
+)
