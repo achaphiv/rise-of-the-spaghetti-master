@@ -205,3 +205,11 @@ export const gash = toPath(
 export const orb = toPath(
   '1662048454_scale_13.8_steps_135_seed_3681495938669754121_upscaled_2_sharpened_2'
 )
+
+export const fallingChunks = toPath(
+  '1662093617_scale_13.8_steps_160_seed_6527652393606942501_upscaled_2_sharpened_2'
+)
+
+export const redChunks = toPath(
+  '1662093476_scale_13.8_steps_160_seed_6101238000288718488_upscaled_2_sharpened_2'
+)
