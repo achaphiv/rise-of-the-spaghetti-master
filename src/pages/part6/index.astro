@@ -1,0 +1,20 @@
+---
+import NavigationLinks from '../../components/NavigationLinks.astro'
+import ScenesDisplay from '../../components/ScenesDisplay.astro'
+import StackY from '../../components/StackY.astro'
+import { glowingForehead } from '../../images'
+import Layout from '../../layouts/Layout.astro'
+
+const navLinks = { back: './part3', forward: '../' }
+
+const scenes = [{ src: glowingForehead, description: 'The end?' }]
+---
+
+<Layout titleExtra="Part 6">
+  <StackY>
+    <NavigationLinks links={navLinks} />
+
+    <ScenesDisplay scenes={scenes} />
+    <NavigationLinks links={navLinks} />
+  </StackY>
+</Layout>
