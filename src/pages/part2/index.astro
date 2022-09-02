@@ -5,10 +5,15 @@ import StackY from '../../components/StackY.astro'
 import {
   arrival,
   blackStuffBehind,
+  closeUp,
+  distantExplosion,
+  explosion,
   hanging,
   landing,
   mirrorBreaking,
   notYours,
+  showOff,
+  stillFalling,
   swingingAround,
   theBestMeal,
 } from '../../images'
@@ -17,10 +22,22 @@ import Layout from '../../layouts/Layout.astro'
 const navLinks = { back: './part1', forward: './part3' }
 
 const scenes = [
-  { src: theBestMeal, description: 'Eating his favorite meal.' },
+  {
+    src: showOff,
+    description:
+      'But without an suitable enemy to fight, what use was such strength?',
+  },
+  { src: stillFalling, description: 'Work was still difficult.' },
+  {
+    src: theBestMeal,
+    description: 'Fortunately, his favorite meal was still comforting.',
+  },
   { src: notYours, description: "You can't have any." },
-  { src: hanging, description: 'Is that spiderman?' },
-  { src: swingingAround, description: 'Time to help.' },
+  { src: distantExplosion, description: 'And then suddenly..' },
+  { src: explosion, description: 'What was that?' },
+  { src: closeUp, description: 'It was time.' },
+  { src: hanging, description: '' },
+  { src: swingingAround, description: 'Is that spiderman?' },
   { src: landing, description: '' },
   { src: arrival, description: '' },
   { src: mirrorBreaking, description: '' },
