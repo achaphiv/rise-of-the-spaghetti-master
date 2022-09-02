@@ -3,22 +3,86 @@ import NavigationLinks from '../../components/NavigationLinks.astro'
 import ScenesDisplay from '../../components/ScenesDisplay.astro'
 import StackY from '../../components/StackY.astro'
 import {
+  absoluteUnit,
   atTheLowestPoint,
+  burningCar,
+  cityBurning,
+  dogLookingThing,
+  dumbo,
+  flattened,
   flimpsy,
+  glowingHead,
+  graves,
+  heroQuestionMark,
+  heroQuestionMark2,
+  heroQuestionMark3,
+  heroQuestionMark4,
+  heroQuestionMark5,
+  heroQuestionMark6,
+  mediumFire,
   miniBlackStrands,
   notGood,
+  oneEyedDemon,
   sadge,
+  theTeeth,
+  trash,
 } from '../../images'
 import Layout from '../../layouts/Layout.astro'
 
 const navLinks = { back: './part3', forward: './part5' }
 
 const scenes = [
-  { src: atTheLowestPoint, description: 'At his lowest point.' },
-  { src: flimpsy, description: '' },
-  { src: miniBlackStrands, description: 'The mojo is gone.' },
-  { src: notGood, description: '' },
-  { src: sadge, description: 'Nothing can satisfy him now.' },
+  { src: dogLookingThing, description: 'The situation grew dire.' },
+  {
+    src: heroQuestionMark5,
+    description: 'And yet, in the darkest hour, mysterious heroes arrived.',
+  },
+  {
+    src: theTeeth,
+    description: '',
+  },
+  {
+    src: heroQuestionMark,
+    description: '',
+  },
+  {
+    src: glowingHead,
+    description: '',
+  },
+  { src: heroQuestionMark4, description: '' },
+  { src: burningCar, description: '' },
+  {
+    src: oneEyedDemon,
+    description: '',
+  },
+  { src: heroQuestionMark3, description: '' },
+  {
+    src: dumbo,
+    description: '',
+  },
+  { src: heroQuestionMark6, description: '' },
+  { src: mediumFire, description: '' },
+  {
+    src: absoluteUnit,
+    description: '',
+  },
+  { src: heroQuestionMark2, description: '' },
+  { src: cityBurning, description: 'Despite the heavy losses.' },
+  { src: graves, description: 'And the many lives lost.' },
+  { src: trash, description: 'The city survived.' },
+  { src: flattened, description: 'Albeit just barely.' },
+  {
+    src: atTheLowestPoint,
+    description: 'But Liam was not concerned about that.',
+  },
+  {
+    src: flimpsy,
+    description:
+      'Since that day, he could no longer conjure the same level of power.',
+  },
+  { src: miniBlackStrands, description: 'The mojo was gone.' },
+  { src: notGood, description: 'Even his favorite meal was not enough.' },
+  { src: sadge, description: 'Nothing could satisfy him now.' },
 ]
 ---
 
