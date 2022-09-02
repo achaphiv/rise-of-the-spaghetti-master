@@ -1,0 +1,19 @@
+---
+import AppLink from './AppLink.astro'
+
+export interface Props {
+  links: {
+    back: string
+    forward: string
+  }
+}
+
+const {
+  links: { back, forward },
+} = Astro.props as Props
+---
+
+<ul class="flex space-x-4">
+  <li><AppLink href={back}>Back</AppLink></li>
+  <li><AppLink href={forward}>Next</AppLink></li>
+</ul>
