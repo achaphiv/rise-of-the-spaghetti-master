@@ -233,3 +233,75 @@ export const showOff = toPath(
 export const closeUp = toPath(
   '1662049127_scale_13.8_steps_135_seed_3568936245512176799_upscaled_2_sharpened_2'
 )
+
+export const dogLookingThing = toPath(
+  '1661913854_scale_7_steps_160_seed_1692017635936060114_upscaled_2_sharpened_2'
+)
+
+export const theTeeth = toPath(
+  '1661912702_scale_7_steps_160_seed_7244694104810246825_upscaled_2_sharpened_2'
+)
+
+export const dumbo = toPath(
+  '1661914374_scale_7_steps_160_seed_7539690944326471687_upscaled_2_sharpened_2'
+)
+
+export const absoluteUnit = toPath(
+  '1661912945_scale_7_steps_160_seed_4328792590603888187_upscaled_2_sharpened_2'
+)
+
+export const oneEyedDemon = toPath(
+  '1662087079_scale_13.8_steps_135_seed_458629412948532411_upscaled_2_sharpened_2'
+)
+
+export const glowingHead = toPath(
+  '1662089333_scale_13.8_steps_135_seed_3852275261996432131_upscaled_2_sharpened_2'
+)
+
+export const heroQuestionMark = toPath(
+  '1662086393_scale_13.8_steps_135_seed_1185883968230660568_upscaled_2_sharpened_2'
+)
+
+export const heroQuestionMark2 = toPath(
+  '1662059448_scale_13.8_steps_135_seed_7775644816835017277_upscaled_2_sharpened_2'
+)
+
+export const heroQuestionMark3 = toPath(
+  '1662059013_scale_13.8_steps_135_seed_8706516870073338224_upscaled_2_sharpened_2'
+)
+
+export const heroQuestionMark4 = toPath(
+  '1662058525_scale_13.8_steps_135_seed_8706516870073338215_upscaled_2_sharpened_2'
+)
+
+export const heroQuestionMark5 = toPath(
+  '1662057683_scale_13.8_steps_135_seed_4105501675102083404_upscaled_2_sharpened_2'
+)
+
+export const heroQuestionMark6 = toPath(
+  '1662058579_scale_13.8_steps_135_seed_8706516870073338216_upscaled_2_sharpened_2'
+)
+
+export const cityBurning = toPath(
+  '1662098891_scale_13.8_steps_160_seed_2009798858174868941_upscaled_2_sharpened_2'
+)
+
+export const mediumFire = toPath(
+  '1662099892_scale_13.8_steps_160_seed_1335811043352258512_upscaled_2_sharpened_2'
+)
+
+export const burningCar = toPath(
+  '1662100206_scale_13.8_steps_160_seed_1335811043352258517_upscaled_2_sharpened_2'
+)
+
+export const trash = toPath(
+  '1662102456_scale_13.8_steps_160_seed_4907430549534133142_upscaled_2_sharpened_2'
+)
+
+export const flattened = toPath(
+  '1662102516_scale_13.8_steps_160_seed_4907430549534133143_upscaled_2_sharpened_2'
+)
+
+export const graves = toPath(
+  '1662102390_scale_13.8_steps_160_seed_4907430549534133141_upscaled_2_sharpened_2'
+)
