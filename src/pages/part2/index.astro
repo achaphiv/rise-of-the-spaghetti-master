@@ -1,0 +1,35 @@
+---
+import NavigationLinks from '../../components/NavigationLinks.astro'
+import ScenesDisplay from '../../components/ScenesDisplay.astro'
+import StackY from '../../components/StackY.astro'
+import {
+  arrival,
+  hanging,
+  landing,
+  notYours,
+  swingingAround,
+  theBestMeal,
+} from '../../images'
+import Layout from '../../layouts/Layout.astro'
+
+const navLinks = { back: './part1', forward: './part3' }
+
+const scenes = [
+  { src: theBestMeal, description: 'Eating his favorite meal.' },
+  { src: notYours, description: "You can't have any." },
+  { src: hanging, description: 'Is that spiderman?' },
+  { src: swingingAround, description: 'Time to help.' },
+  { src: landing, description: '' },
+  { src: arrival, description: '' },
+]
+---
+
+<Layout titleExtra="Part 2">
+  <StackY>
+    <NavigationLinks links={navLinks} />
+
+    <ScenesDisplay scenes={scenes} />
+
+    <NavigationLinks links={navLinks} />
+  </StackY>
+</Layout>
