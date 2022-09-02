@@ -2,15 +2,71 @@
 import NavigationLinks from '../../components/NavigationLinks.astro'
 import ScenesDisplay from '../../components/ScenesDisplay.astro'
 import StackY from '../../components/StackY.astro'
-import { ball, glowingStrands, glowingStrandsTwo } from '../../images'
+import {
+  ball,
+  fence1,
+  fence2,
+  fence3,
+  fence4,
+  fence5,
+  gash,
+  glowingStrands,
+  glowingStrandsTwo,
+  happyFeet,
+  holdingPlate,
+  orb,
+  plateHovering,
+  scream,
+  youStayHere,
+} from '../../images'
 import Layout from '../../layouts/Layout.astro'
 
 const navLinks = { back: '..', forward: './part2' }
 
 const scenes = [
-  { src: ball, description: 'Success' },
+  {
+    src: fence1,
+    description: 'As Liam Neeson grew in age.',
+  },
+  {
+    src: fence2,
+    description: 'Even quick cuts could not help him.',
+  },
+  {
+    src: fence3,
+    description: 'With each fall, the truth became inescapable.',
+  },
+  {
+    src: fence4,
+    description: 'This was it.',
+  },
+  {
+    src: fence5,
+    description: 'It was time to retire.',
+  },
+  {
+    src: holdingPlate,
+    description:
+      'However, while eating his favorite dish, he noticed something strange.',
+  },
+  {
+    src: plateHovering,
+    description: 'The spaghetti moved on its own!',
+  },
+  {
+    src: youStayHere,
+    description: 'Attempts to replicate that experience proved difficult.',
+  },
+  {
+    src: happyFeet,
+    description: 'Until finally... Success.',
+  },
+  { src: ball, description: 'His powers continued to grow.' },
   { src: glowingStrands, description: '' },
-  { src: glowingStrandsTwo, description: 'I know Kung Fu' },
+  { src: glowingStrandsTwo, description: 'I know Kung Fu.' },
+  { src: gash, description: '' },
+  { src: orb, description: '' },
+  { src: scream, description: '' },
 ]
 ---
 
