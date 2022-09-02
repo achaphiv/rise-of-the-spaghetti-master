@@ -309,3 +309,19 @@ export const graves = toPath(
 export const superCloseUp = toPath(
   '1662050845_scale_13.8_steps_135_seed_6038819540852106403_upscaled_2_sharpened_2'
 )
+
+export const moreBurning = toPath(
+  '1662102713_scale_13.8_steps_160_seed_4907430549534133146_upscaled_2_sharpened_2'
+)
+
+export const bigBoy = toPath(
+  '1661914440_scale_7_steps_160_seed_7539690944326471688_upscaled_2_sharpened_2'
+)
+
+export const buff = toPath(
+  '1661914248_scale_7_steps_160_seed_7539690944326471685_upscaled_2_sharpened_2'
+)
+
+export const chonker = toPath(
+  '1661914186_scale_7_steps_160_seed_7539690944326471684_upscaled_2_sharpened_2'
+)
